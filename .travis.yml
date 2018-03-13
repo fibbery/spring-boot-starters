@@ -3,4 +3,3 @@ sudo: false
 install: cd dubbo-spring-boot-starter && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 install: cd spring-boot-starter-parent && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 install: cd spring-boot-starter-test && mvn compile
-install: mvn install
