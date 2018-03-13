@@ -6,8 +6,10 @@
         <groupId>com.fibbery</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../spring-boot-starter-parent</relativePath>
     </parent>
     <artifactId>spring-boot-starter-test</artifactId>
+    <packaging>jar</packaging>
     <modelVersion>4.0.0</modelVersion>
 
 
