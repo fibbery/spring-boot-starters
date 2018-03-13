@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.fibbery.springboot.starter.dubbo.DubboContextInitializer
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.fibbery.springboot.starter.dubbo.DubboConsumerAutoConfiguration,\
+com.fibbery.springboot.starter.dubbo.DubboProviderAutoConfiguration
