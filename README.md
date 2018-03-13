@@ -1,4 +1,4 @@
-# spring-boot-starters
+# spring-boot-starters [![Build Status](https://travis-ci.org/jiangnenghua/spring-boot-starters.svg?branch=master)](https://travis-ci.org/jiangnenghua/spring-boot-starters/)
 
 一些自定义的springboot启动项目，里面内置了spring-boot-starter-parent，继承自官方原生1.5.6.RELEASE的starter-parent。　
 
