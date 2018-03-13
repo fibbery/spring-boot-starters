@@ -2,7 +2,9 @@ language: java
 sudo: false
 jdk:
   - oraclejdk8
-script:
-  - mvn clean
+install:
   - cd dubbo-spring-boot-starter && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
   - cd spring-boot-starter-parent && mvn install -DskipTests=true -Dmaven.javadoc.skip=true
+
+script:
+  - cd spring-boot-starter-test && mvn compile
