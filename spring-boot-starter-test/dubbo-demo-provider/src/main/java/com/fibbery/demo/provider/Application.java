@@ -1,4 +1,4 @@
-package demo;
+package com.fibber.demo.api;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,10 +9,11 @@ import java.util.concurrent.CountDownLatch;
 
 /**
  * @author fibbery
- * @date 18/3/13
+ * @date 18/7/2
  */
 @SpringBootApplication
 public class Application {
+
     @Bean
     public CountDownLatch closeLatch() {
         return new CountDownLatch(1);
@@ -23,6 +24,4 @@ public class Application {
         CountDownLatch closeLatch = context.getBean(CountDownLatch.class);
         closeLatch.await();
     }
-
-
 }
