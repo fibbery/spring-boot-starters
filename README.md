@@ -2,4 +2,4 @@
 一些自定义springboot的starter用于快速开发
 
 ## 项目列表
-1. [dubbo-spring-boot-starter](./dubbo-spring-boot-stater/README.md)
+1. [dubbo-spring-boot-starter](dubbo-spring-boot-stater/README.md)
